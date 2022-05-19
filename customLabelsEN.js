@@ -18,14 +18,14 @@ export const customLabels = {
     const_competitions_555bf: "5x5x5 Blindfolded",
     const_competitions_333mbf: "3x3x3 Multi-Blind",
     //constants > registerValidationSchema.js
-    const_registerValidationSchema_emailNiepoprawny: "Wrong email",
-    const_registerValidationSchema_emailWymagany: "Email required",
-    const_registerValidationSchema_podajPanstwo: "Select the country",
-    const_registerValidationSchema_minLiczbaZnakow: "Minimum 8 charakters needed",
+    const_registerValidationSchema_emailNiepoprawny: "Wrong e-mail",
+    const_registerValidationSchema_emailWymagany: "E-mail required",
+    const_registerValidationSchema_podajPanstwo: "Select country",
+    const_registerValidationSchema_minLiczbaZnakow: "Minimum 8 characters needed",
     const_registerValidationSchema_hasloWymagane: "Password required",
-    const_registerValidationSchema_akceptujRegulamin: "Accept the regulations",
+    const_registerValidationSchema_akceptujRegulamin: "Accept terms and conditions",
     //constants > resetPasswordValidationSchema.js
-    const_resetPasswordValidationSchema_minLiczbaZnakow: "Minimum 8 charakters needed",
+    const_resetPasswordValidationSchema_minLiczbaZnakow: "Minimum 8 characters needed",
     const_resetPasswordValidationSchema_podajNoweHaslo: "Enter a new password",
     const_resetPasswordValidationSchema_noweHasloMusi: "New password must be different",
     const_resetPasswordValidationSchema_haslaMuszaBycIdentyczne: "The passwords must be identical",
@@ -47,7 +47,7 @@ export const customLabels = {
     //constants > userProfileEditValidationSchema.js
     const_userProfileEditValidationSchema_podajPanstwo: "Enter the country",
     //components > molecules > Login > LoginButtonsWrapper.js
-    login_loginButtonsWrapper_niePamietaszHasla: "Forgot your password?",
+    login_loginButtonsWrapper_niePamietaszHasla: "Forgot password?",
     //components > molecules > Login > LoginLeftWrapper.js
     login_loginLeftWrapper_nieMaszKonta: "No account?",
     //components > molecules > Register > InputWrapper.js
@@ -83,21 +83,21 @@ export const customLabels = {
     contact_contactForm_tytulWymagany: "Title required",
     contact_contactForm_emailNiepoprawny: "Email invalid",
     contact_contactForm_emailWymagany: "Email required",
-    contact_contactForm_minimum10znakow: "10 characters minimum",
+    contact_contactForm_minimum10znakow: "Minimum 10 characters",
     contact_contactForm_wiadomoscWymagana: "Message required",
-    contact_contactForm_napisz: "Write to us",
+    contact_contactForm_napisz: "Message us",
     contact_contactForm_emailTitle: "Your e-mail address",
     contact_contactForm_titleTitle: "Title",
     contact_contactForm_napiszWiadomosc: "Write a message",
     contact_contactForm_wyslij: "Send",
     //components > organisms > Contact > LeftWrapper.js
-    contact_leftWrapper_zadzwon: "Phone",
+    contact_leftWrapper_zadzwon: "Telephone",
     contact_leftWrapper_dolaczDoSerwera: "JOIN THE SERVER",
     //components > organisms > CookiesPopUp > CookiesPopUp.js
     cookiesPopUp_cookiesPopUp_korzystajacZNaszej: "By using our site, you consent to our use of cookies. You can set conditions for storing or accessing cookies in your browser.",
     //components > organisms > Gallery > GalleryMenu.js
-    gallery_galleryMenu_ulubione: "FAVORITE",
-    gallery_galleryMenu_ulubione2: "FAVORITE",
+    gallery_galleryMenu_ulubione: "FAVOURITE",
+    gallery_galleryMenu_ulubione2: "FAVOURITE",
     gallery_galleryMenu_wybierzZawody: "SELECT COMPETITIONS",
     //components > organisms > Home > HomePageCardContact.js
     home_homePageCardContact_kontakt: "CONTACT",
@@ -108,9 +108,9 @@ export const customLabels = {
     //components > organisms > Home > HomePageCardTraining.js
     home_homePageCardTournaments_treningi: "TRAININGS",
     //components > organisms > Login > LoginForm.js
-    login_loginForm_niepoprawnyEmail: "Incorrect E-mail",
+    login_loginForm_niepoprawnyEmail: "Incorrect e-mail",
     login_loginForm_emailWymagany: "E-mail required",
-    login_loginForm_zaKrotkieHaslo: "Too short a password",
+    login_loginForm_zaKrotkieHaslo: "Password too short",
     login_loginForm_hasloWymagane: "Password required",
     login_loginForm_serwerOtrzymal: "The server received an invalid request",
     login_loginForm_uzytkownikJestJuzZalogowany: "The user is already logged in",
@@ -143,7 +143,7 @@ export const customLabels = {
     register_registerForm_akceptuje: "Accept",
     register_registerForm_firstnameTitle: "Name",
     register_registerForm_lastnameTitle: "Surname",
-    register_registerForm_emailTitle: "Email",
+    register_registerForm_emailTitle: "E-mail",
     register_registerForm_passwordTitle: "Password",
     register_registerForm_dateTitle: "Date of birth",
     register_registerForm_plecTitle: "Gender",
@@ -155,11 +155,11 @@ export const customLabels = {
     register_registerForm_ostrzezenie: "Warning! The information provided does not match your WCA account. If you think everything is correct, please continue.",
     register_registerForm_akceptuje2: "Accept",
     register_registerForm_anuluj: "Cancel",
-    register_registerForm_ustawSwojeDomyslne: "Set your default competitions",
+    register_registerForm_ustawSwojeDomyslne: "Set your default events",
     register_registerForm_domyslnyRozmiarKoszulki: "Default T-shirt size",
     register_registerForm_akceptuje3: "*I accept the",
     register_registerForm_regulamin: "terms and conditions",
-    register_registerForm_wRegularminieZnajduje: "Please refer to the terms and conditions for the privacy policy, RODO regulations, and site rules.",
+    register_registerForm_wRegularminieZnajduje: "Please refer to the terms and conditions for the privacy policy, RODO (General Data Protection Regulation) regulations, and site rules.",
     register_registerForm_wyrazamZgodeNa: "I agree to receive the newsletter",
     register_registerForm_bladRejestracji: "Registration error",
     //components > organisms > results > ResultsData.js
@@ -196,7 +196,7 @@ export const customLabels = {
     //components > organisms > Tournament > TournamentPlayersContent.js
     tournament_tournamentPlayersContent_rejestracjaNaZawody: "Registration for the event has not yet begun. To see the list of competitors, please come back here after registration has started 🙂",
     tournament_tournamentPlayersContent_listaRezerwowa: "RESERVE LIST",
-    tournament_tournamentPlayersContent_listaOczekujacych: "WAITLIST",
+    tournament_tournamentPlayersContent_listaOczekujacych: "WAITING LIST",
     tournament_tournamentPlayersContent_obecnieNieMaZadnego: "There are currently no registered competitors",
     //components > organisms > Tournament > TournamentRegistrationContent.js
     tournament_tournamentRegistrationContent_bladWczytywania: "Loading error",
@@ -326,8 +326,8 @@ export const customLabels = {
     //pages > Contact.js
     pages_contact_wiadomoscWyslana: "Message sent",
     //pages > ForgottenPassword.js
-    pages_forgottenPassword_wpiszSwojEmail: "Wpisz swój e-mail",
-    pages_forgottenPassword_zapomnialesHasla: "Zapomniałeś hasła?",
+    pages_forgottenPassword_wpiszSwojEmail: "Enter your email",
+    pages_forgottenPassword_zapomnialesHasla: "Forgot password?",
     pages_forgottenPassword_wpiszSwojAdresEmailAbyMoc: "Wpisz swój adres e-mail, aby móc zresetować hasło. Na podany e-mail zostasnie wysłany link do formularza resetującego.",
     pages_forgottenPassword_resetuj: "Resetuj",
     pages_forgottenPassword_emailZostalWyslany: "Email został wysłany",
